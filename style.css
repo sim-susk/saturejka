@@ -1,11 +1,57 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext");
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
+  box-sizing: border-box;
+  background-color: lavenderblush;
+  padding: 100px;
+  /*padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 170px;*/
+}
+
+header {
+  background-color: lavenderblush;
+  padding: 0px;
+  
+}
+
+body {
+  background-color: white;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  
 }
 
 h1,
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
+}
+
+.logo {
+  width: 300px;
+}
+
+.home {
+  width: 200px;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.dish1 {
+  width: 300px;
+  float: left;
+}
+
+.dish2 {
+  width: 300px;
+  float: right;
+}
+
+.dish3 {
+  width: 300px;
+  float: left;
 }
